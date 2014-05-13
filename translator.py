@@ -142,7 +142,7 @@ def translate(line):
           buffer += c
 
   # Removing the whitespace of the first line of this function
-  return buffer[:-1]
+  return buffer[:-1].lower()
 
 
 def readDictFile(dictFile):
